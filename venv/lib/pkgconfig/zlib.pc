@@ -1,0 +1,13 @@
+prefix=/Users/anmolpatwa/Desktop/untitled folder 3/ml project/venv
+exec_prefix=/Users/anmolpatwa/Desktop/untitled folder 3/ml project/venv
+libdir=/Users/anmolpatwa/Desktop/untitled folder 3/ml project/venv/lib
+sharedlibdir=/Users/anmolpatwa/Desktop/untitled folder 3/ml project/venv/lib
+includedir=/Users/anmolpatwa/Desktop/untitled folder 3/ml project/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
